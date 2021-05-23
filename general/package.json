@@ -1,0 +1,30 @@
+{
+  "name": "unit-tests-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:1": "npm test -- src/1-structure.spec.js",
+    "test:2": "npm test -- src/2-basics.spec.js",
+    "test:3": "npm test -- src/3-async.spec.js",
+    "test:4": "npm test -- src/4-mock-func.spec.js",
+    "test:5": "npm test -- src/5-mock-modules.spec.js",
+    "test": "jest --watch",
+    "test:all": "jest ./src/**/*.spec.js --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bluebird": "^3.7.2"
+  }
+}

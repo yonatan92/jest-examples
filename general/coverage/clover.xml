@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1608040582708" clover="3.2.0">
+  <project timestamp="1608040582708" name="All files">
+    <metrics statements="44" coveredstatements="42" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="11" elements="65" coveredelements="61" complexity="0" loc="44" ncloc="44" packages="2" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="28" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="8"/>
+      <file name="3-async.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/3-async.js">
+        <metrics statements="13" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="4-mock-func.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/4-mock-func.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="5-mock-modules.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/5-mock-modules.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="finance.utils.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/utils/finance.utils.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="morse.codes.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/utils/morse.codes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="strings.utils.js" path="/Users/ajar/Documents/node-ws-ms/unit-tests-with-jest/general/src/utils/strings.utils.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
